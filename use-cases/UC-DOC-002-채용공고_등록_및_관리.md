@@ -37,7 +37,7 @@
 - 채용공고 원문(`job_descriptions`)은 URL 기준으로 공유된다. 동일 URL을 여러 사용자가 등록해도 크롤링은 최초 1회만 수행된다
 - 사용자 레이어(`user_job_descriptions`)는 각 사용자의 북마크 및 활성화 상태를 독립적으로 관리한다
 - 크롤링·파싱은 비동기 처리: 등록 즉시 응답 반환 후 백그라운드에서 처리되며, 완료 전까지 UI에 "분석 중..." 상태를 표시한다
-- 채용공고는 지원 현황(`Application Context`)과 별개로 독립적으로 관리된다
-- 등록된 채용공고는 [UC-DOC-003-지원_현황_등록_및_관리.md](./UC-DOC-003-지원_현황_등록_및_관리.md)에서 지원 현황에 연결할 수 있다
+- 채용공고 등록 시 지원 상태(`application_status`)를 함께 설정하며, 이후 상세·수정 화면에서 변경할 수 있다 → [UC-DOC-003-지원_현황_등록_및_관리.md](./UC-DOC-003-지원_현황_등록_및_관리.md)
+- 등록된 채용공고는 면접 설정 시 지원 컨텍스트로 선택할 수 있다
 - 관련 테이블: `job_descriptions`, `user_job_descriptions`
 - 벡터 DB: `user_document_chunks` → [vector-db-schema.md](../vector-db-schema.md)

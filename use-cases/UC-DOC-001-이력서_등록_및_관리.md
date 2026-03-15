@@ -47,7 +47,7 @@
 
 - 이력서는 선택 사항이다. 등록하지 않아도 직군·직업 정보만으로 면접 시작이 가능하다
 - 여러 버전의 이력서를 등록할 수 있으며, 각각 활성화/비활성화로 관리한다
-- `input_type`: `file_upload` | `free_text` 로 입력 방식을 구분하여 저장한다
+- `resume_type`: `file` | `text` 로 입력 방식을 구분하여 저장한다 (db-schema.md `resumes.resume_type` 참조)
 - `parsed_data` (JSONB): LLM이 추출한 구조화 데이터. UI 표시용으로 활용
   ```json
   {
