@@ -18640,6 +18640,17 @@
               ]
             },
             {
+              "type": "text",
+              "id": "u0r1m",
+              "name": "skip",
+              "fill": "$text-muted",
+              "content": "나중에 설정하기",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
               "type": "frame",
               "id": "iDlx3",
               "name": "submitBtn",
@@ -43005,6 +43016,343 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XDAhQ",
+      "x": 6261,
+      "y": 4576,
+      "name": "03.5 Email - Verification Mail",
+      "width": 600,
+      "height": 844,
+      "fill": "#F3F4F6",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "LXjL7",
+          "x": 0,
+          "y": 0,
+          "name": "emailBg",
+          "width": 600,
+          "height": 844,
+          "fill": "#F3F4F6",
+          "layout": "vertical",
+          "padding": [
+            40,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "f3iwX",
+              "name": "emailCard",
+              "width": 520,
+              "fill": "$card-bg",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "outside",
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "48jHD",
+                  "name": "emailHeader",
+                  "width": "fill_container",
+                  "fill": "$accent",
+                  "layout": "vertical",
+                  "padding": [
+                    32,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vqKTm",
+                      "name": "emailLogoRow",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xTRIY",
+                          "name": "emailLogoIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "video",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fBSaz",
+                          "name": "emailLogoText",
+                          "fill": "#FFFFFF",
+                          "content": "InterviewAI",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2c3hi",
+                  "name": "emailBody",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UxzOl",
+                      "name": "emailIconBg",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-light",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "MGykr",
+                          "name": "emailMailIcon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "mail",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "BgFLZ",
+                      "name": "emailTitle",
+                      "fill": "$text-primary",
+                      "content": "이메일 주소를 인증해 주세요",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wt4hi",
+                      "name": "emailDesc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "안녕하세요!\nInterviewAI에 가입해 주셔서 감사합니다.\n아래 버튼을 클릭하여 이메일 주소를 인증하고\n서비스 이용을 시작하세요.",
+                      "lineHeight": 1.7,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "zpZj3",
+                      "name": "emailDivider1",
+                      "fill": "$border",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JNp3E",
+                      "name": "emailBtnWrapper",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WJcH4",
+                          "name": "emailBtn",
+                          "width": 280,
+                          "fill": "$accent",
+                          "cornerRadius": 10,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#F9731640",
+                            "offset": {
+                              "x": 0,
+                              "y": 4
+                            },
+                            "blur": 14
+                          },
+                          "gap": 8,
+                          "padding": [
+                            16,
+                            0
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZTAlp",
+                              "name": "emailBtnText",
+                              "fill": "#FFFFFF",
+                              "content": "이메일 인증하기",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "AcBoA",
+                          "name": "emailBtnNote",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": 380,
+                          "content": "버튼이 작동하지 않으면 아래 링크를 복사하여 브라우저에 붙여넣으세요.",
+                          "lineHeight": 1.5,
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4Zdm4",
+                      "name": "emailLinkBox",
+                      "width": "fill_container",
+                      "fill": "$muted-bg",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "outside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "bBzqk",
+                          "name": "emailLinkIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "link",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7JpKb",
+                          "name": "emailLinkText",
+                          "fill": "$text-muted",
+                          "content": "https://interviewai.kr/auth/confirm?token=abc123...",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "SBZPT",
+                      "name": "emailDivider2",
+                      "fill": "$border",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5Q02k",
+                      "name": "emailExpiry",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tI5NC",
+                          "name": "emailExpiryIcon",
+                          "width": 13,
+                          "height": 13,
+                          "iconFontName": "timer",
+                          "iconFontFamily": "lucide",
+                          "fill": "$text-muted"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BU1FX",
+                          "name": "emailExpiryText",
+                          "fill": "$text-muted",
+                          "content": "이 링크는 24시간 후 만료됩니다",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TUchd",
+                  "name": "emailFooter",
+                  "width": "fill_container",
+                  "fill": "$muted-bg",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    20,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gbyQu",
+                      "name": "emailFooterText1",
+                      "fill": "$text-muted",
+                      "content": "본 이메일은 InterviewAI 회원가입 시 자동 발송됩니다.",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RQdRV",
+                      "name": "emailFooterText2",
+                      "fill": "$text-muted",
+                      "content": "가입을 요청하지 않으셨다면 이 이메일을 무시하셔도 됩니다.",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
